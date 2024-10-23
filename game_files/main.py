@@ -7,9 +7,6 @@ from boundary import clear_terminal, print_boundary
 from loading import loading_animation
 from animation import game_over_screen, goodbye_screen, show_bat, show_ball
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-
 # Initialize Colorama
 init(autoreset=True)
 
